@@ -224,7 +224,7 @@ a:hover {
 .saveoverlay div {
 	text-align: center;
 	font-size: 11px;
-	margin: inherit;
+	margin-top: inherit;
 }
 
 .saveselection {
@@ -246,7 +246,7 @@ a:hover {
 	padding: 5px;
 	border: 1px solid #111;
 }
-.saveselection span {
+.yang .saveselection span {
 	border: 1px solid #fff;
 }
 
