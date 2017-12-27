@@ -1,18 +1,17 @@
-var defaultTitle = 'This is ZenPen';
+var defaultTitle = 'Ça c\'est Scribouille';
 var defaultContent = 
 '<p>\
-A minimalist writing zone, where you can block out all distractions and get to what\'s important. The writing!  \
+C\'est une sorte d\'éditeur de texte simple pour se concentrer sur l\'écriture.  \
 </p>\
 <p> \
-	To get started, all you need to do is delete this text (seriously, just highlight it and hit delete), and fill the page with your own fantastic words. You can even change the title!  \
+	Pour commencer, supprimez tout ce texte et remplissez cette page de jolis petits mots. Vous verrez, c\'est simple.  \
 </p> \
 <p> \
-	You can use <b>bold</b>, <i>italics</i>, <b><i>both</i></b> and <a href="http://zenpen.io"> urls </a> just by highlighting the text and selecting them from the tiny options box that appears above it.\
+	Vous pouvez écrire en <b>gras</b>, en <i>italique</i>, <b><i>les deux combinés</i></b> et même mettre des <a href="https://kiyo.ooo/s"> urls </a> juste en surlignant le texte et en sélectionnant ce qu\'il vous plaît.\
 </p>\
 <blockquote>\
-	Quotes are easy to add too!\
+	Vous pouvez même mettre des citations !\
 </blockquote>\
 <p>\
-	For <i>questions</i> and <b>open source info</b>, Click that little question mark at the bottom left of the screen.\
-</p>\
-<p>Happy Typing! ~ <b>Tim Holman (@twholman)</b></p>';
+	Si vous avez des <i>questions</i> et <b>besoin d\'infos</b>, cliquez sur le petit point d\'interrogation en bas à gauche.</p>\
+<p>Allez, la bise.</p>';
