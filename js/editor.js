@@ -153,27 +153,27 @@ ZenPen.editor = (function() {
 		// warrent a shim.
 
 		if ( hasNode( currentNodeList, 'B') ) {
-			boldButton.className = "bold active"
+			boldButton.className = "bold material-icons active"
 		} else {
-			boldButton.className = "bold"
+			boldButton.className = "bold material-icons"
 		}
 
 		if ( hasNode( currentNodeList, 'I') ) {
-			italicButton.className = "italic active"
+			italicButton.className = "italic material-icons active"
 		} else {
-			italicButton.className = "italic"
+			italicButton.className = "italic material-icons"
 		}
 
 		if ( hasNode( currentNodeList, 'BLOCKQUOTE') ) {
-			quoteButton.className = "quote active"
+			quoteButton.className = "quote material-icons active"
 		} else {
-			quoteButton.className = "quote"
+			quoteButton.className = "quote material-icons"
 		}
 
 		if ( hasNode( currentNodeList, 'A') ) {
-			urlButton.className = "url useicons active"
+			urlButton.className = "url material-icons active"
 		} else {
-			urlButton.className = "url useicons"
+			urlButton.className = "url material-icons"
 		}
 	}
 
