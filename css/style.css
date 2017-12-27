@@ -224,6 +224,7 @@ a:hover {
 .saveoverlay div {
 	text-align: center;
 	font-size: 11px;
+	margin: inherit;
 }
 
 .saveselection {
@@ -243,13 +244,10 @@ a:hover {
 	font-size: 15px;
 	margin: 5px;
 	padding: 5px;
-	border: 2px solid white;
-	border-radius: 3px;
+	border: 1px solid #111;
 }
-
-.saveselection span:hover {
-	background: rgba(255,255,255,.8);
-	color: black;
+.saveselection span {
+	border: 1px solid #fff;
 }
 
 .savebutton {
@@ -259,17 +257,20 @@ a:hover {
 	-ms-transition: opacity 250ms;
 	-o-transition: opacity 250ms;
 	transition: opacity 250ms;
-
-	font-size: 30px !important;
-	margin: 15px auto;
+	font-size: 40px !important;
+	margin: auto;
 	background: none;
 	cursor: pointer;
 	display: block;
 	border: none;
 	padding: 0;
 	width: 80px;
-	color: #fff;
+	color: #111;
 	margin-top: -2px;
+}
+
+.yang .savebutton {
+	color: #fff;
 }
 
 .savebutton:hover {
