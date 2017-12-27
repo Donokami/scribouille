@@ -1,24 +1,19 @@
 <!doctype html>
 <html>
-
 	<head>
-
 		<!-- MISC/META -->
 		<title> Scribouille ~ Un carnet d'écriture minimaliste </title>
-        <meta charset="utf-8">
+        	<meta charset="utf-8">
 		<meta name="description" content="Scribouille - Un carnet d'écriture minimaliste afin d'écrire quand on le souhaite, en toute simplicité.">
-        
 		<!-- CSS -->
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/fonts.css" rel="stylesheet">
-
+		<base target="_blank">
     </head>
-
 	<body class="yin">
-
 		<div class="overlay">
 			<div class="wordcount modal">
 				<h1>Nombre de mots à compter</h1>
@@ -26,14 +21,12 @@
 					<input type="number" name="quantity" value="0" min="0" />
 				</div>
 			</div>
-
 			<div class="description modal">
 				<h1>À propos de Scribouille</h1>
 				<p>Scribouille est un fork de <a href="http://github.com/tholman/zenpen">ZenPen</a>, un outil réalisé par <a href="http://tholman.com">Tim Holman</a> (<a href="http://twitter.com/twholman">@twholman</a>).
 				<br><br>Scribouille est disponible en open-source sur <a href="http://github.com/tholman/zenpen">Github</a>.
 				<br><br>Cette version est hébergée par moi-même, si vous avez des questions <a href="https://kiyo.ooo/">contactez-moi ici.</a></p>
 			</div>
-			
 			<div class="saveoverlay modal">
 				<h1>Sélectionnez le format dans lequel enregister</h1>
 				<p class='saveselection'>
@@ -46,7 +39,6 @@
 				<textarea class='hiddentextbox'></textarea>
 			</div>
 		</div>
-
 		<div class="text-options">
 			<div class="options">
 				<span class="no-overflow">
@@ -60,9 +52,7 @@
 				</span>
 			</div>
 		</div>
-
 		<div class="ui">
-
 			<div class="wrapper">
 
 				<div class="top editing">
@@ -82,23 +72,19 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="word-counter">
 			<span class="progress"></span>
 		</div>
-
 		<section>
 			
 			<header contenteditable="true" class="header"></header>
 			<article contenteditable="true" class="content"></article>
 
 		</section>
-
 		<!-- LIBS -->
 		<script src="js/libs/FileSaver.min.js"></script>
 		<script src="js/libs/Blob.min.js"></script>
 		<script src="js/libs/screenfull.min.js"></script>
-		
 		<!-- JS -->
 		<script src="js/default.js"></script>
 		<script src="js/utils.js"></script>
