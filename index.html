@@ -4,11 +4,12 @@
 	<head>
 
 		<!-- MISC/META -->
-		<title> ZenPen ~ Minimal Distraction, Maximum Zen </title>
+		<title> Scribouille ~ Un carnet d'écriture minimaliste </title>
         <meta charset="utf-8">
-		<meta name="description" content="Zenpen - A minimal text editor, made to stay out of the way while you get the words down.">
+		<meta name="description" content="Scribouille - Un carnet d'écriture minimaliste afin d'écrire quand on le souhaite, en toute simplicité.">
         
 		<!-- CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> 
 		<link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/fonts.css" rel="stylesheet">
@@ -19,28 +20,28 @@
 
 		<div class="overlay">
 			<div class="wordcount modal">
-				<h1>Target Word Count</h1>
+				<h1>Nombre de mots à compter</h1>
 				<div>
 					<input type="number" name="quantity" value="0" min="0" />
 				</div>
 			</div>
 
 			<div class="description modal">
-				<h1> About ZenPen </h1>
-				<p>  Zenpen is a clean and simple writing zone, made by <a href="http://tholman.com">Tim Holman</a> (<a href="http://twitter.com/twholman">@twholman</a>), to get you into that zone, where you can focus on the writing.
-				<br><br>ZenPen is open source on <a href="http://github.com/tholman/zenpen">Github</a>.
-				<br><br>If you have any questions, hit me up via <a href="mailto:timothy.w.holman@gmail.com">email</a>.</p>
+				<h1> À propos de Scribouille </h1>
+				<p>  Scribouille est une version hébergée de <a href="http://github.com/tholman/zenpen">Scribouille</a>, un outil réalisé par <a href="http://tholman.com">Tim Holman</a> (<a href="http://twitter.com/twholman">@twholman</a>).
+				<br><br>Scribouille est disponible en open-source sur <a href="http://github.com/tholman/zenpen">Github</a>.
+				<br><br>Cette version est hébergée par moi-même, si vous avez des questions <a href="https://kiyo.ooo/">contactez-moi ici.</a></p>
 			</div>
 			
 			<div class="saveoverlay modal">
-				<h1>Select save format</h1>
+				<h1>Sélectionnez le format dans lequel enregister</h1>
 				<p class='saveselection'>
 					<span data-format='markdown'>Markdown</span>
 					<span data-format='html'>HTML</span>
-					<span data-format='plain'>Plain Text</span>
+					<span data-format='plain'>Texte pur</span>
 				</p>
 				<button class='savebutton useicons'>&#xe006;</button>
-				<div> Or select format and press ctrl+c (cmd+c on mac) to copy the text. </div>
+				<div> Après avoir sélectionné le format, vous pouvez faire ctrl+c pour l'enregistrer directement dans le presse-papier.</div>
 				<textarea class='hiddentextbox'></textarea>
 			</div>
 		</div>
@@ -50,7 +51,7 @@
 				<span class="no-overflow">
 					<span class="lengthen ui-inputs">
 						<button class="url useicons">&#xe005;</button>
-						<input class="url-input" type="text" placeholder="Type or Paste URL here"/>
+						<input class="url-input" type="text" placeholder="Insérez une URL ici"/>
 						<button class="bold">b</button>
 						<button class="italic">i</button>
 						<button class="quote">&rdquo;</button>
@@ -64,18 +65,18 @@
 			<div class="wrapper">
 
 				<div class="top editing">
-					<button class="fullscreen useicons" title="Toggle fullscreen">
+					<button class="fullscreen useicons" title="Activer le mode plein-écran">
 						&#xe000;
 					</button>
 
-					<button class="color-flip useicons" title="Invert colors">
+					<button class="color-flip useicons" title="Inverser les couleurs">
 						&#xe002;
 					</button>
 
-					<button class="target useicons" title="Set target word count">
+					<button class="target useicons" title="Initialiser le compteur de mots">
 						&#xe001;
 					</button>
-					<button class="save useicons" title="Save Text">
+					<button class="save useicons" title="Exporter le texte">
 						&#xe003;
 					</button>
 				</div>
@@ -110,7 +111,7 @@
 		<script src="js/editor.js"></script>
 		<script src="js/ui.js"></script>
 		<script type="text/javascript">
-	        // Initiate ZenPen
+	        // Initialisation de ZenPen
 	        ZenPen.editor.init();
 	    	ZenPen.ui.init();
         </script>
