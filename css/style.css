@@ -91,12 +91,6 @@ blockquote {
 	height: 100%;
 }
 
-.useicons {
-	-webkit-font-smoothing: antialiased;
-	font-size: 20px !important;
-	font-family: 'icomoon' !important;
-}
-
 .yin {
 	background: #fdfdfd;
 	color: #111;
@@ -131,8 +125,6 @@ blockquote {
 	-ms-transition: opacity 400ms;
 	-o-transition: opacity 400ms;
 	transition: opacity 400ms;
-
-	font-family: inherit;
 	background: none;
 	cursor: pointer;
 	font-size: 25px;
