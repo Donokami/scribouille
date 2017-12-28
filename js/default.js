@@ -2,6 +2,7 @@ var defaultTitle = 'Ça c\'est Scribouille';
 var defaultContent = 
 '<p>\
 C\'est une sorte d\'éditeur de texte simple pour se concentrer sur l\'écriture.  \
+Votre texte est enregistré localement et n\'est partagé à aucun tiers.\
 </p>\
 <p> \
 	Pour commencer, supprimez tout ce texte et remplissez cette page de jolis petits mots. Vous verrez, c\'est simple.  \
