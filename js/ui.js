@@ -14,8 +14,8 @@ ZenPen.ui = (function() {
 	//save support
 	var supportsSave, saveFormat, textToWrite;
 	
-	var expandScreenIcon = '&#xe000;';
-	var shrinkScreenIcon = '&#xe004;';
+	var expandScreenIcon = 'fullscreen';
+	var shrinkScreenIcon = 'fullscreen_exit';
 
 	var darkLayout = false;
 
