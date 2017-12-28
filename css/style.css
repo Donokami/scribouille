@@ -197,6 +197,12 @@ a:hover {
 	margin: auto;
 	width: 150px;
 	padding: 5px;
+	background-color: transparent;
+	border: 1px solid #111;
+}
+
+.yang .modal input[type="number"] {
+	border: 1px solid #fff;
 }
 
 .description {
@@ -358,14 +364,12 @@ a:hover {
 .options {
 	background-color: rgba(0,0,0,.9);
 	position: absolute;
-	border-radius: 5px;
 	margin-left: -63px;
 	margin-top: -46px;
 	z-index: 1000;
 	padding: 5px 4px 5px 5px;
 	width: 125px;
 	height: 40px;
-
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	-ms-transition: all 300ms ease-in-out;
