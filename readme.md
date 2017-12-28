@@ -1,20 +1,35 @@
-## ZenPen - A minimalist writing zone.
+## Scribouille - Un carnet d'écriture minimaliste
+Scribouille (https://kiyo.ooo/s) est une application web de rédaction simple et minimaliste, afin d'éviter toutes distractions.  
 
-Zenpen (http://zenpen.io) is a web app for writing minimally, and getting into the Zone.
+Les informations sont sauvegardées dans le navigateur, et sont persistantes.
 
-All information is persistent locally, using HTML5 local storage.
+### Démo
+Une version persistante est disponible ici:  
+https://donokami.github.io/scribouille/ ou sur mon site https://kiyo.ooo/s.
 
-### ZenPen's minimal interface
-![ZenPen](https://i.imgur.com/uP8Ensx.png)
+### Les fonctionnalités
+- Un éditeur simple (gras, italique, liens) de textes
+- Un mode couleurs inversées
+- Un compteur de mots
+- La possibilité d'exporter sous différents formats (brut, markdown ou html)
 
-### Text styling
-![Text Styling](https://i.imgur.com/J8T88O7.png)
+### Les différences avec ZenPen
+- Une seule police d'écriture monospace, Inconsolata
+- Interface en français
+- Des icônes plus modernes, dans le style material
+- Un style graphique légèrement retravaillé.
 
-### Saving
-![Saving](https://i.imgur.com/TkXX4aI.png)
+### À quoi est-ce que cela ressemble ?
+![Scribouille](https://i.imgur.com/nsuL1Cd.png)
+
+### L'édition
+![L'édition de styles](https://i.imgur.com/NuTEAnk.png)
+
+### La sauvegarde
+![La Sauvegarde](https://i.imgur.com/iDVPNtg.png)
 
 ### License
 
 The MIT License
 
-Copyright (C) 2016 ~ [Tim Holman](http://tholman.com) ~ timothy.w.holman@gmail.com
+Copyright (C) 2017 ~ [Kiyoshi](https://kiyo.ooo)
